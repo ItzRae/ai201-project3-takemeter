@@ -222,12 +222,8 @@ Before annotating the full dataset, I will use Claude Code to stress-test my lab
 
 If the generated posts are difficult to classify consistently, I will revise my label definitions before collecting and annotating all 200 examples. This will help make the labels more mutually exclusive and reduce confusion during annotation.
 
-### **Annotation Assistance**
-
-I will aim to annotate the labels on my own without the use of AI assistance. That puts me closer to the examples and it seems like the most reliable way despite it being less efficient.
-
 ### **Failure Analysis**
 
-After evaluating the classifier, I will use an AI tool to help analyze the model’s incorrect predictions. I will provide the AI with examples of misclassified posts and ask it to identify patterns, such as confusion between Nutrition & Weight Management and Troubleshooting & Motivation.
+After evaluating the classifier, I will use an AI tool to help analyze the model’s incorrect predictions. I will provide the AI with examples of misclassified posts and ask it to identify patterns, such as confusion between `advice` and `discussion`
 
 I will verify any patterns myself by reviewing the original posts and comparing them to my label definitions. If the model repeatedly confuses two categories, I will discuss whether the issue came from unclear labels, overlapping post types, limited training examples, or model limitations.
